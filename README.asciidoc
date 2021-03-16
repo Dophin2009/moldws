@@ -83,5 +83,5 @@ DOCKER_BUILDKIT=1 docker build --output target .  # build should be at target/in
 
 == License
 
-This project is licensed under the MIT license. See link:LICENSE.txt[LICENSE.txt] for
-more details.
+This project is licensed under the GNU Public License v3. See
+link:LICENSE[LICENSE] for more details.
