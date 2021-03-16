@@ -147,7 +147,8 @@ function loadEditor(originalURL: string, newURL: string) {
 // versions.
 function loadImages(originalURL: string, newURL: string) {
     // Save the image data URLs into the browser storage.
-    storage.saveImageData(originalURL, newURL);
+
+    //      {{{ CODE HERE }}}
 
     // Display the images on the page by getting the <img> elements and setting
     // their `src` attributes.
@@ -191,7 +192,7 @@ function discardImages() {
     im.clear();
 
     // Clear the image data from the storage.
-    storage.clearImageData();
+    //      {{{ CODE HERE }}}
 
     // Hide the editor and unhide the upload form.
     resetEditor();
@@ -215,7 +216,7 @@ function reloadImage() {
     downloadAnchor.href = url;
 
     // Save the image URLs into the storage again.
-    storage.saveNewImage(url);
+    //      {{{ CODE HERE }}}
 }
 
 // Initialization function.
@@ -253,10 +254,7 @@ function initEditor() {
 
     // Add a listener for click events on the undo button.
     const undoButton = util.editorUndoButton();
-    undoButton.addEventListener("click", (_event: MouseEvent) => {
-        im.undoLast();
-        reloadImage();
-    });
+    //      {{{ CODE HERE }}}
 
     // Add a listener for click events on the reset button.
     const resetButton = util.editorResetButton();

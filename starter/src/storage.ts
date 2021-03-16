@@ -24,12 +24,11 @@ export function load<T>(key: string): T | undefined {
 // We call this to save the given image data URLs to the storage.
 export function saveImageData(originalURL: string, newURL: string): void {
     // Use `window.localStorage.setItem()` to save a value.
-    storage.setItem(ORIGINAL_KEY, originalURL);
-    saveNewImage(newURL);
+    //      {{{ CODE HERE }}}
 }
 
 export function saveNewImage(url: string): void {
-    storage.setItem(NEW_KEY, url);
+    //      {{{ CODE HERE }}}
 }
 
 // This function loads the image data URLs from the storage, returning
@@ -41,11 +40,7 @@ export function loadImageData(): [string, string] | undefined {
     // Use `window.localStorage.getItem()` to load a value.
     const originalURL = storage.getItem(ORIGINAL_KEY);
     const newURL = storage.getItem(NEW_KEY);
-    if (!originalURL || !newURL) {
-        clearImageData();
-        return undefined;
-    }
-    return [originalURL, newURL];
+    //      {{{ CODE HERE }}}
 }
 
 // This function clears image data URLs from the storage.
