@@ -1,0 +1,12 @@
+*
+
+!include
+!sections
+!index.tex
+
+!emojisub
+!template
+
+!latexmkrc
+
+!packages.txt

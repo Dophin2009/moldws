@@ -1,0 +1,11 @@
+babel
+babel-english
+beamer
+beamertheme-metropolis
+csquotes
+fira
+forest
+hyperref
+listings
+pgfopts
+subfiles
