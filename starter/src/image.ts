@@ -1,4 +1,5 @@
-import { Image } from "image-js";
+// import { Image } from "image-js";
+type Image = any;
 
 // Save the data of the original image so the user can reset.
 let original: string;
@@ -33,8 +34,7 @@ export function undoLast(): void {
 
 // Clear all versions and restore the original image.
 export async function reset(): Promise<void> {
-    const image = await Image.load(original);
-    versions = [image];
+    //      {{{ CODE HERE }}}
 }
 
 // Clear all versions and the original image data.
