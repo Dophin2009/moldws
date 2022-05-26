@@ -14,7 +14,7 @@ In doing so, the following concepts are introduced:
 
 The starter code is provided in `/starter`.
 
-See https://github.com/Dophin2009/mold for the completed source code and
+See https://github.com/mirryi/mold for the completed source code and
 https://dophin2009.github.io/mold for a deployed instance.
 
 == Building
@@ -25,7 +25,7 @@ Requirements for main document (if not using Docker):
 ** Alternatively, a TeX installation (see link:packages.txt[`packages.txt`] for
    list of extra required packages)
 
-See https://github.com/Dophin2009/mold for instructions on building the actual
+See https://github.com/mirryi/mold for instructions on building the actual
 project.
 
 === Unix
